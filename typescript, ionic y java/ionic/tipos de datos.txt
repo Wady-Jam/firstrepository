@@ -1,0 +1,27 @@
+tipos de datos 
+
+numericos- enteros
+decimal-float
+var edad =21
+
+string-cadena de texto
+var nombre = "juan";
+var apellido = "martinez";
+un pequeno tip. si queremos agregar unas comillas dentro de el texto se hace de la siguente manera. var texto='el mejor programador es "wady jam"' hacemos el texto con comillas simples(') y la parte que queremos agregarle las comillas doble se las agregamos(") tambien hay otra forma le agregamos el slash invertido(\) y le ponemos las comillas dobles(") o las normales(') :var texto= "el mejor prgramador es \"wady jam\";
+
+array- de arreglo(nos permite guardar varios valores dentro y nos permite acceder mediate el numero del arreglo)
+var amigos = [ "maria","karen",19,true];
+para acceder hacemos lo siguiente.
+document.write = amigos [1]; aqui se mostraria karen ya que en la computadora se empieza desde cero.
+
+object-objeto
+var objeto{
+color: "black",
+size: 12 
+}
+
+boolean-boleano nos permite almacenar 
+true
+false
+var boleano = true;
+

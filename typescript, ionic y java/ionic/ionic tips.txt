@@ -1,0 +1,14 @@
+
+para crear una carpeta desde la terminar  
+1) c/users/user/desktop/ionic/  = ubicados aqui escribimos ionic start nombre de nuestra carpeta blank 
+2) c/users/user/desktop/ionic/ ionic start 03-componentes blank
+3) c/users/user/desktop/ionic/03-componentes
+
+para crear una pagina aqui escribimos en la terminar 
+1) c/users/user/desktop/ionic/03-componentes ionic g   = aqui nos dara la opcion de elegir que es lo que queremos general
+2) c/users/user/desktop/ionic/03-componentes ionic genarate page pages/nombre que le queremos dar a la pagina  = aqui nos genera directamente la pagina
+
+para aceder a la pagina web 
+
+1) c/users/user/desktop/ionic/03-componentes escribimos ionic serve
+2) c/users/user/desktop/ionic/03-componentes ionic serve

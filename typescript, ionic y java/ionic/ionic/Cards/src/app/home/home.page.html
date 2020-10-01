@@ -1,0 +1,19 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Akatsuki
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card *ngFor="let heroes of personajes">
+    <img src="{{heroes.imagen}}">
+    <ion-card-header>
+      <ion-card-subtitle>{{heroes.name}}</ion-card-subtitle>
+      <ion-card-title>{{heroes.poder}}</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+
+ 
+</ion-content>

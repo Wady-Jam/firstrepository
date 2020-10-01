@@ -1,0 +1,53 @@
+un array con un for
+
+var dias = ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado" , "domingo"];
+for( i = 0; i <= dias.length - 1; i = i + 1 ) {
+    document.write( dias[i] + "<br>");
+}
+
+
+una condicion con un prompt
+
+var nombre =  prompt("introducir nombre");
+
+var edad = prompt("introducir edad");
+ 
+ if( edad >= 18 ) {
+    document.write (`bienvenido ${nombre} eres mayor de edad`);
+ } else{
+      document.write(`no eres mayor de edad`);
+}
+
+
+arrays var amigos;
+amigos =["Juan", "Miguel", "Jose",];
+amigos[2]= "Wady";
+
+amigos[amigos.length] = "Michelle";
+amigos[amigos.length] = "Andreina";
+amigos[amigos.length] = "Joel";
+amigos[amigos.length] = "Randy";
+amigos[amigos.length] = "Asel";
+amigos.push("Nicole", "Radhaisa", "Estefany", "Nancy");
+var amigos2 = amigos.join(". " );
+//document.write( amigos2);
+
+//document.write ("Usted tiene"+ " " + amigos.length + " "+ "amigos");
+//document.write (amigos);
+
+//document.write(amigos[1]);
+// aqui lo que hice fue cambiar a jose por wady
+//document.write(amigos[2]); 
+//amigos[3]= "Randy";
+//aqui lo que hice fue agregar a randy
+
+var ordenados;
+
+ordenados= amigos.sort();
+
+document.write (ordenados);
+
+
+
+
+

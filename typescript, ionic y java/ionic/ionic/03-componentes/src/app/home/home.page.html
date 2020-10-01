@@ -1,0 +1,37 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      inicio    
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true"> 
+  <h3>{{name}}</h3>
+  <ion-input [value]="name" placeholder="Primer Nombre" [(ngModel)]="name"></ion-input>
+    <ion-button (click)="change_name()">colocar
+    </ion-button>
+
+ <h3>{{introducir_nombre}}</h3>
+    <ion-input [value]="introducir_nombre" placeholder="Segundo Nombre" [(ngModel)]="introducir_nombre"></ion-input>
+      <ion-button (click)="introducir_nombre1()">insertar 
+      </ion-button>
+
+      <h3>{{poner_apellido}}</h3>
+      <ion-input [value]="poner_apellido" placeholder="Primer Apellido" [(ngModel)]="poner_apellido"></ion-input>
+    <ion-button (click)="poner_apellido1()">agregar
+    </ion-button>
+
+    <h3>{{poner_apellido2}}</h3>
+      <ion-input [value]="poner_apellido2" placeholder="Segundo Apellido" [(ngModel)]="poner_apellido2"></ion-input>
+    <ion-button (click)="poner_apellidos()">llenar
+    </ion-button>
+    
+    <ion-button routerLink= "/alert"> 
+      Alert
+    </ion-button>
+
+    <ion-button routerLink= "/action-sheet">
+      Action Sheet
+    </ion-button>
+ 
